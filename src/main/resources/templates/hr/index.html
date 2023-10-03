@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<div th:replace="_layout :: head"></div>
+<div th:replace="_layout :: header"></div>
+<div th:replace="_layout :: sidebar"></div>
+
+<main id="main" class="main">
+
+    <div class="row">
+        <div class="col-lg-4">
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Employees</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="/countries" class="btn btn-primary">Manage Employees</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">JobRoles</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="/modules" class="btn btn-primary">Manage JobRoles</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Department</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="/states" class="btn btn-primary">Manage Department</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-lg-4">
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Employee Types</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="/locations" class="btn btn-primary">Manage EmployeeTypes</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Employee Status</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="/contacts" class="btn btn-primary">Manage EmployeeTypes</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</main>
+<div th:replace="_layout :: foot"></div>
+</html>

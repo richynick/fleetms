@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<div th:replace="_layout :: head"></div>
+<div th:replace="_layout :: header"></div>
+<div th:replace="_layout :: sidebar"></div>
+
+<main id="main" class="main">
+
+  <div class="row">
+    <div class="col-lg-4">
+
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Countries</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="/countries" class="btn btn-primary">Manage Countries</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Modules</h5>
+          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+          <a href="/modules" class="btn btn-primary">Manage Modules</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+<div th:replace="_layout :: foot"></div>
+</html>
